@@ -1,6 +1,8 @@
 ;;; ~/.doom.d/config.el -*- lexical-binding: t; -*-
 
 ;; Place your private configuration here
+(require 'doom-themes)
+(load-theme 'doom-dracula t)
 
 (setq doom-font (font-spec :family "Dank Mono" :size 16))
 
