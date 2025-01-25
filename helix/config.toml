@@ -1,0 +1,26 @@
+theme = "github_light"
+
+[editor]
+true-color = true
+line-number = "relative"
+mouse = false
+cursorline = true
+color-modes = true
+end-of-line-diagnostics = "hint"
+
+[editor.statusline]
+left = ["mode", "version-control", "spinner", "file-name"]
+
+[editor.file-picker]
+hidden = false
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.soft-wrap]
+enable = true
+
+[editor.inline-diagnostics]
+cursor-line = "hint"
